@@ -61,3 +61,16 @@ button:hover {
 .bar.swapping {
     background-color: #168d7f;
 }
+
+
+
+
+@media only screen and (max-width: 767px) {
+    body{
+        height: auto;
+    }
+    #array-container{
+        height: 40vh;
+        width: 60vh;
+    }
+}
