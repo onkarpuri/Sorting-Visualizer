@@ -11,15 +11,15 @@ public class insertion {
     public static void main(String[] args) {
         int[] a = {7, 3, 2, 5, 4};
         for (int i = 1; i < a.length; i++) {
-            int key = a[i]; // Element to be placed at the correct position
+            int current = a[i]; // Element to be placed at the correct position
             int j = i - 1;
 
-            // Move elements greater than key to one position ahead of their current position
-            while (j >= 0 && a[j] > key) {
+            // Move elements greater than current to one position ahead of their current position
+            while (j >= 0 && a[j] > current) {
                 a[j + 1] = a[j];
-                j = j - 1;
+                j--;
             }
-            a[j + 1] = key; // Place key at the correct position
+            a[j + 1] = current; // Placement
         }
         play(a);
     }
