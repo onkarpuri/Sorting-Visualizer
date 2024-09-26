@@ -72,10 +72,10 @@ button:hover {
     }
     #array-container{
         height: 40vh;
-        width: 50vh;
+        width: 60vh;
     }
     .controls{
-        width: 40vh;
-        flex-wrap: ;
+        
+        flex-wrap: wrap;
     }
 }
